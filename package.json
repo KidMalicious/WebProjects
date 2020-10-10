@@ -1,0 +1,21 @@
+{
+  "name": "webprojects",
+  "version": "1.0.0",
+  "description": "projects that I have done",
+  "main": "App.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KidMalicious/WebProjects.git"
+  },
+  "keywords": [],
+  "author": "Aidan Fredericks",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KidMalicious/WebProjects/issues"
+  },
+  "homepage": "https://github.com/KidMalicious/WebProjects#readme"
+}
