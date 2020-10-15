@@ -2,6 +2,7 @@
 html {
     font-size: 62.5%;
 }
+
 .navbar {
     font-size: 1.5rem;
 }
@@ -24,9 +25,22 @@ footer {
 h3 {
     padding: 1rem 1.2rem;
 }
-.rating{
-    padding-left: 1rem;
-}
+
 .rating span {
     margin: 0.1rem;
+}
+.list-group-item {
+    border: 0 !important;
+}
+.noPad {
+    padding: 0;
+    margin: 0;
+}
+.strong {
+    font-size: 1.2rem;
+    font-family: "Arial Black", Helvetica, sans-serif;
+    color: black;
+}
+.btn-block {
+    font-size: 1.3rem;
 }
