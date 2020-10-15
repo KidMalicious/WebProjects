@@ -13,13 +13,13 @@ html {
     display: flex;
     flex-direction: column;
 }
-
 main {
     font-size: 1.5rem;
-    background-color: #c5c5c5;
+    background-color: #dbdbdb;
 }
 footer {
-    background-color: #c5c5c5;
+    background-color: #eee;
+    height: 9vh;
 }
 h3 {
     padding: 1rem 1.2rem;
