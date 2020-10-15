@@ -1,3 +1,32 @@
+
+html {
+    font-size: 62.5%;
+}
+.navbar {
+    font-size: 1.5rem;
+}
+.navbar-brand {
+    font-size: 1.5rem;
+}
+#root {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
 main {
-    min-height: 80vh;
+    font-size: 1.5rem;
+    background-color: #c5c5c5;
+}
+footer {
+    background-color: #c5c5c5;
+}
+h3 {
+    padding: 1rem 1.2rem;
+}
+.rating{
+    padding-left: 1rem;
+}
+.rating span {
+    margin: 0.1rem;
 }
