@@ -5,16 +5,15 @@ const RateHelp = (value, color) => {
     let html = [];
     for(let i = 0; i < 5; i++){
         let rating = (value - i) >= 1 ? 'fas fa-star' : (value - i) >= 0.5 ? 'fas fa-star-half-alt' : 'far fa-star';
-        html.push(<span><i style = {{color}} className = {rating} ></i></span>);
+        html.push(<span key = {i}><i style = {{color}} className = {rating} ></i></span>);
     }
     return html;
 }
 const Rating = ({ value, text, color }) => {
-    let rating = (value) >= 1 ? 'fas fa-star' : (value) >= 0.5 ? 'fas fa-star-half-alt' : 'far fa-star';
     return (
         <div className="rating" >
             {RateHelp(value, color)}
-            <span>
+            <span key = {6}>
                 {text && text}
             </span>
         </div>
