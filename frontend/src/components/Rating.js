@@ -13,7 +13,7 @@ const Rating = ({ value, text, color }) => {
     return (
         <div className="rating" >
             {RateHelp(value, color)}
-            <span key = {6}>
+            <span key = "text">
                 {text && text}
             </span>
         </div>
