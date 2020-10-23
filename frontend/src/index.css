@@ -2,9 +2,11 @@
 html {
     font-size: 62.5%;
 }
-
+.card{
+    background-color: #eee;
+}
 .navbar {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 .navbar-brand {
     font-size: 1.5rem;
@@ -16,7 +18,9 @@ html {
 }
 main {
     font-size: 1.5rem;
-    background-color: #dbdbdb;
+    background-color: #ccc;
+    min-height: 80vh;
+
 }
 footer {
     background-color: #eee;
@@ -30,6 +34,7 @@ h3 {
     margin: 0.1rem;
 }
 .list-group-item {
+    background-color: #eee;
     border: 0 !important;
 }
 .noPad {
@@ -43,4 +48,10 @@ h3 {
 }
 .btn-block {
     font-size: 1.3rem;
+}
+.form-control{
+    font-size: 1.5rem;
+}
+i {
+    font-size: 1.5rem;
 }
