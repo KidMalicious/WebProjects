@@ -15,7 +15,6 @@ const CartScreen = ({ match, location, history }) => {
 
     const cart = useSelector(state => state.cart)
     const { cartItems } = cart
-    console.log(cartItems.length)
 
     useEffect(() => {
         if (productId) {
@@ -24,7 +23,7 @@ const CartScreen = ({ match, location, history }) => {
     }, [dispatch, productId, qty])
 
     const checkOutHandler = () => {
-        console.log('checkout')
+        history.push('/login?redirect=shipping')
     }
 
     const removeFromCartHandler = (id) => {
